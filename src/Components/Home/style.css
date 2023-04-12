@@ -1,0 +1,60 @@
+.home-container {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 16px;
+  width: 270px;
+  outline: none;
+  border-radius: 2.6px 0 0 2.6px;
+  border: solid 1.3px #e1e1e1 !important;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  height: 25px;
+}
+input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  width: 270px;
+  outline: none;
+  border: none;
+}
+.card-container {
+  height: 350px;
+  padding: 4px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #fff;
+  border: 1px none #bce8f1 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  margin-bottom: 2px;
+}
+
+.card.active,
+.card.hover {
+  background: bisque;
+}
+
+.card:hover {
+  cursor: pointer;
+}
